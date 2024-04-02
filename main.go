@@ -132,7 +132,7 @@ func main() {
 	fmt.Println("Ты можешь выбрать один из трёх путей силы:")
 	fmt.Println("Воитель, Маг, Лекарь")
 
-	char_class := choise_char_class()
+	charClass := choise_char_class()
 
 	fmt.Println(start_training(charName, charClass))
 }
