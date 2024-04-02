@@ -132,9 +132,9 @@ func main() {
 	fmt.Println("Ты можешь выбрать один из трёх путей силы:")
 	fmt.Println("Воитель, Маг, Лекарь")
 
-	charClass := choise_char_class()
+	charClass := choiseCharClass()
 
-	fmt.Println(start_training(charName, charClass))
+	fmt.Println(startTraining(charName, charClass))
 }
 
 func randint(min, max int) int {
